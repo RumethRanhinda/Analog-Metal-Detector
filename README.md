@@ -17,6 +17,7 @@ This project involves the design and implementation of a professional-grade meta
 - `Datasheet.pdf`: Technical specifications of the components and system.
 - `Manual.pdf`: User guide and operation instructions.
 - `Presentation.pdf`: Detailed project presentation and overview.
+- `Final Report.pdf`: Final report of the project detailing all design decisions with calculations.
 
 ## Getting Started
 
@@ -24,7 +25,7 @@ This project involves the design and implementation of a professional-grade meta
 To view or edit the PCB designs, you will need **Altium Designer**. The main project file is `Metal Detector.PrjPcb`.
 
 ### Mechanical
-The enclosure models require **SolidWorks**. open `final-assm.SLDASM` to view the full assembly.
+The enclosure models require **SolidWorks 2025**. open `final-assm.SLDASM` to view the full assembly.
 
 ## Documentation
-For a high-level overview of the project's goals and implementation, refer to `Presentation.pdf`. Detailed technical information can be found in `Datasheet.pdf`.
+For a high-level overview of the project's goals and implementation, refer to `Presentation.pdf`. Detailed technical information can be found in `Datasheet.pdf`. The project report can be refered in `Final Report.pdf`
