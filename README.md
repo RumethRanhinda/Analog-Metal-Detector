@@ -58,7 +58,7 @@ The circuit relies heavily on the MCP6002 dual op-amp due to its ability to work
 
 ![Design_team](Images/Design_team.jpg)
 
-* **Team EchoWave** (Department of Electronic & Telecommunication Engineering, University of Moratuwa): *(From Left to Right)*  
+* **Team Prometheus** (Department of Electronic & Telecommunication Engineering, University of Moratuwa): *(From Left to Right)*  
   * Samarasinghe S.M.R.R. - 230566U
   * Eranga W.A.O. - 230175U
   * Gamage S.K. - 230195F
