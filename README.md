@@ -24,7 +24,9 @@ The system operates on the Beats Frequency Oscillator (BFO) principle, which rel
 * **Fixed Length Square Pulse Shaper:** To provide a distinct trigger sound, the filtered output passes through a high-pass filter and hysteresis comparators to generate fixed-length square pulses. These pulses ensure that a higher intensity metal object produces faster, distinct clicks on the buzzer.
 
 ## Hardware & Enclosure
-*(Add images of the PCB and 3D enclosure here: `![PCB Top View](docs/images/pcb_top.png)` and `![3D Enclosure](docs/images/enclosure.png)`)*
+![Assembled PCB Top View](Images/Solded_pcb.jpeg)
+![3D Enclosure](Images/Enclosure.jpg)
+
 
 The circuit relies heavily on the MCP6002 dual op-amp due to its ability to work with a single power supply (1.8V to 6V), rail-to-rail output, and low quiescent current, which is ideal for battery-powered portable detectors. The hardware features a custom PCB layout specifically designed to minimize EMI and cross-coupling.
 
@@ -37,7 +39,8 @@ The circuit relies heavily on the MCP6002 dual op-amp due to its ability to work
 * **Weight:** 300 g (0.66 lb) excluding the battery.
 
 ## Usage & Calibration Instructions
-*(Add a demonstration video link here: `[![Device Demonstration](docs/images/video_thumbnail.png)](https://link-to-your-video.com)`)*
+![Annotated Product](Images/Annotated_Product.png)
+
 
 1. **Power Setup:** Connect a standard 9V battery and ensure the search coil is kept away from any metal objects.
 2. **Startup:** Power the circuit ON using the ON/OFF switch.
@@ -50,3 +53,13 @@ The circuit relies heavily on the MCP6002 dual op-amp due to its ability to work
 * **No audio output:** Check if the buzzer is connected properly, or measure the 5V regulator output to verify the 9V input is functioning.
 * **Constant loud tone:** The threshold is set too high; adjust the main tune knob to recalibrate.
 * **Detector triggers continuously:** You may be near large metal objects; move to a metal-free area and recalibrate.
+
+## Authors & Acknowledgments
+
+![Design_team](Images/Design_team.jpg)
+
+* **Team EchoWave** (Department of Electronic & Telecommunication Engineering, University of Moratuwa): *(From Left to Right)*  
+  * Samarasinghe S.M.R.R. - 230566U
+  * Eranga W.A.O. - 230175U
+  * Gamage S.K. - 230195F
+  * Tharushika G.K.E. - 230636K
