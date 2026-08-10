@@ -1,15 +1,68 @@
 LTspice 24.1.1 for Windows
-Circuit: D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\Model 2.net
-Start Time: Tue Aug 11 02:31:29 2026
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\Model 2.net(27): This sub-circuit name is not defined.
-X§U2 N021 N013 5v 0 N019 MCP6002
-                        ^^^^^^^^
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\Model 2.net(32): This sub-circuit name is not defined.
-X§U3 N015 N009 5v 0 N012 MCP6002
-                        ^^^^^^^^
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\Model 2.net(47): This sub-circuit name is not defined.
-X§U1 N003 N001 5v 0 N002 MCP6002
-                        ^^^^^^^^
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\Model 2.net(53): This sub-circuit name is not defined.
-X§U4 N004 N002 5v 0 25kOut2 MCP6002
-                           ^^^^^^^^
+Circuit: C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\Model 2.net
+Start Time: Tue Aug 11 02:43:33 2026
+solver = Normal
+Maximum thread count: 22
+tnom = 27
+temp = 27
+method = trap
+Instance "u2:M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "u2:M14": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M14": Length shorter than recommended for a level 1 MOSFET.
+Instance "u1:M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "u1:M14": Length shorter than recommended for a level 1 MOSFET.
+Instance "u4:M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "u4:M14": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Gmin = 1000
+Gmin = 107.374
+vernier = 0.5
+Gmin = 18.0144
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 18.0144
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 50.5804 ms.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 9.76562e-10
+Changing Tseed to 9.76562e-12
+Changing Tseed to 9.76562e-09
+Changing Tseed to 9.76562e-13
+Changing Tseed to 9.76563e-08
+Changing Tseed to 9.76563e-14
+Changing Tseed to 9.76563e-07
+Changing Tseed to 9.76562e-15
+Total elapsed time: 14.688 seconds.
+
+Files loaded:
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\Model 2.net
+C:\Users\user\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\user\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\user\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\AS78L05C.lib
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\LM358.lib
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\MCP6001.lib
+

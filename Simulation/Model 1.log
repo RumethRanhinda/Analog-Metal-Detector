@@ -1,6 +1,6 @@
 LTspice 24.1.1 for Windows
-Circuit: D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\Model 1.net
-Start Time: Tue Aug 11 02:26:08 2026
+Circuit: C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\Model 1.net
+Start Time: Tue Aug 11 02:36:10 2026
 solver = Normal
 Maximum thread count: 22
 tnom = 27
@@ -26,14 +26,14 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.449 seconds.
+Total elapsed time: 0.472 seconds.
 
 Files loaded:
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\Model 1.net
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\Model 1.net
 C:\Users\user\AppData\Local\LTspice\lib\cmp\standard.dio
 C:\Users\user\AppData\Local\LTspice\lib\cmp\standard.bjt
 C:\Users\user\AppData\Local\LTspice\lib\cmp\standard.mos
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\AS78L05C.lib
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\LM358.lib
-D:\University of Moratuwa\Campus Projects\Sem 3\Analog Project\Mid Eval Simulations\MCP6001.lib
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\AS78L05C.lib
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\LM358.lib
+C:\Users\user\Documents\GitHub\Analog-Metal-Detector\Simulation\MCP6001.lib
 
