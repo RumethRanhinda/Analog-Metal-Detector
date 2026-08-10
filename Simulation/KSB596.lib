@@ -1,0 +1,29 @@
+* KSB596 PNP Power Transistor LTspice model
+* Based on ON Semiconductor datasheet
+
+.MODEL KSB596 PNP (
++ IS=1E-11      ; saturation current
++ BF=100        ; forward beta (hFE ~ 40–240, typical ~100)
++ NF=1          ; ideality factor
++ VAF=50        ; Early voltage (estimate)
++ IKF=5         ; corner for beta roll-off
++ ISE=1E-11     ; B-E leakage saturation current
++ NE=1.5
++ BR=10         ; reverse beta
++ NR=1
++ VAR=25
++ IKR=0.5
++ ISC=1E-11
++ NC=2
++ RB=0.1        ; base resistance
++ RE=0.05       ; emitter resistance
++ RC=0.05       ; collector resistance
++ CJE=200p      ; B-E capacitance
++ VJE=0.75      ; B-E junction potential
++ MJE=0.33
++ CJC=130p      ; B-C capacitance (datasheet)
++ VJC=0.75
++ MJC=0.33
++ TF=0.5u       ; forward transit time (from fT ≈ 3 MHz)
++ TR=50n        ; reverse transit time
+)

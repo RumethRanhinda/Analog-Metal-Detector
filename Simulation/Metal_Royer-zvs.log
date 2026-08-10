@@ -1,0 +1,17 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\User\Desktop\Project\Metal_Royer-zvs.net
+Start Time: Sat Sep 20 13:19:36 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 2.041 seconds.
+
+Files loaded:
+C:\Users\User\Desktop\Project\Metal_Royer-zvs.net
+C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.mos
+

@@ -1,0 +1,8 @@
+* AS78L05C Low Current 5V Regulator (100mA)
+* Based on AS78LXX datasheet
+* Pins: 1=IN, 2=GND, 3=OUT
+.SUBCKT AS78L05C IN GND OUT
+* Simple behavioral model: Vout = 5V when Vin > 7V, else Vin - dropout
+E1 OUT GND VALUE={ IF(V(IN,GND)>7, 5, V(IN,GND)-1.8) }
+Rload OUT GND 1MEG
+.ends AS78L05C
